@@ -1,0 +1,105 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background: #6d6d6d;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Services section styles */
+#services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    margin-top: 10px;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #a39797;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
